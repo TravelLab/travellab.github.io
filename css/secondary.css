@@ -1,0 +1,376 @@
+/* Contact Page*/
+#contactourlabs{
+    background: url(../images/contactourlaboratories.png);
+    width: 17%;
+    height: 24%;
+    background-size: 100%;
+    left: 7%;
+    top: 23.1%;
+}
+
+#howtogettravel{
+    background: url(../images/howtogetravellab.png);
+    width: 11%;
+    height: 16%;
+    background-size: 100%;
+    left: -2%;
+    top: 38%;
+}
+
+#contactlab1{
+    background: url(../images/bradmiron.png);
+    width: 36%;
+    height: 51.7%;
+    background-size: 100%;
+    left: 66%;
+    top: 56%;
+}
+#contactlab2{
+    background: url(../images/team.png);
+    width: 22.5%;
+    height: 32%;
+    background-size: 100%;
+    left: 85.5%;
+    top: 6.5%;
+}
+#contacttext{
+    color: white;
+    top: 22%;
+    left: 27%;
+    width: 60%;
+}
+
+/* Who we are */
+
+#whowelab1{
+    background: url(../images/bradmiron.png);
+    background-size: 100%;
+    width: 11.5%;
+    height: 16.5%;
+    left: 20.5%;
+    top: 41.5%;
+}
+#whowelab2{
+    background: url(../images/team.png);
+    background-size: 100%;
+    width: 11.5%;
+    height: 16.5%;
+    left: 20.5%;
+    top: 60.5%;
+}
+
+#whowearetext{
+    color: white;
+    top: 24%;
+    left: 35%;
+    width: 65%;
+}
+
+#innovationguelph{
+    background: url(../images/innovationguelph.png);
+    background-size: 100%;
+    width: 10%;
+    height: 15%;
+    left: 16%;
+    top: 91%;
+}
+
+/* What we have done */
+
+#florida{
+    background: url(../images/whatwehavedone/floridafanatic.png);
+    background-size: 100%;
+    width: 11.5%;
+    height: 22%;
+    left: 81.5%;
+    top: 75%;
+}
+#letitsnow{
+    background: url(../images/whatwehavedone/letitsnow.png);
+    background-size: 100%;
+    width: 17.5%;
+    height: 27%;
+    left: 25.5%;
+    top: 63%;
+}
+#manwoman{
+    background: url(../images/whatwehavedone/visitorlando.png);
+    background-size: 100%;
+    width: 11.5%;
+    height: 22.2%;
+    left: 65.5%;
+    top: 26%;
+}
+#mexico{
+    background: url(../images/whatwehavedone/mexico.png);
+    background-size: 100%;
+    width: 15%;
+    height: 30%;
+    left: 97.5%;
+    top: 19%;
+}
+#visitingflorida{
+    background: url(../images/whatwehavedone/vf1.png);
+    background-size: 100%;
+    width: 10.5%;
+    height: 21%;
+    left: 76.5%;
+    top: 50%;
+}
+#travelforlife{
+    background: url(../images/whatwehavedone/travelforlife.png);
+    background-size: 100%;
+    width: 10.5%;
+    height: 20%;
+    left: 51.5%;
+    top: 27%;
+}
+#travelnextdoor{
+    background: url(../images/whatwehavedone/travelnextdoor.png);
+    background-size: 100%;
+    width: 18.5%;
+    height: 35%;
+    left: 55.5%;
+    top: 51%;
+}
+#universal{
+    background: url(../images/whatwehavedone/universal.png);
+    background-size: 100%;
+    width: 14.5%;
+    height: 29%;
+    left: 37.5%;
+    top: 85%;
+}
+#usa{
+    background: url(../images/whatwehavedone/usa.png);
+    background-size: 100%;
+    width: 10%;
+    height: 26%;
+    left: 69.5%;
+    top: 83%;
+}
+#wakeupawinner{
+    background: url(../images/whatwehavedone/wakeupawinner2.png);
+    background-size: 100%;
+    width: 14.5%;
+    height: 28%;
+    left: 81.5%;
+    top: 20%;
+}
+#wakeupawinner2{
+    background: url(../images/whatwehavedone/wakeupawinner.png);
+    background-size: 100%;
+    width: 15.5%;
+    height: 30%;
+    left: 92.5%;
+    top: 49%;
+}
+#timetogomexico{
+    background: url(../images/whatwehavedone/tgm1.png);
+    background-size: 100%;
+    width: 10%;
+    height: 19%;
+    left: 45%;
+    top: 55%;
+}
+#whylovemexico{
+    background: url(../images/whatwehavedone/whylovemexico.png);
+    background-size: 100%;
+    width: 14.5%;
+    height: 29%;
+    left: 34.5%;
+    top: 29%;
+}
+
+#yellowback{
+    background: url(../images/whatwehavedone/yellowback.png);
+    background-size: 100%;
+    width: 13%;
+    height: 26%;
+    left: 54.5%;
+    top: 89%;
+}
+
+#whatwehavetext{
+    width: 70%;
+    height: 26%;
+    left: 40%;
+    top: 13%;
+}
+
+/* What we do */
+#wbranding{
+    background: url(../images/whatwedo/branding.png);
+    background-size: 100%;
+    width: 15.5%;
+    height: 30%;
+    left: 56.5%;
+    top: 84%;
+}
+#wconsumer{
+    background: url(../images/whatwedo/consumer.png);
+    background-size: 100%;
+    width: 15.5%;
+    height: 30%;
+    left: 79.5%;
+    top: 49%;
+}
+#wdestination{
+    background: url(../images/whatwedo/destination.png);
+    background-size: 100%;
+    width: 12.5%;
+    height: 24%;
+    left: 74%;
+    top: 85%;
+}
+#wdestination_crisis{
+    background: url(../images/whatwedo/destination_crisis.png);
+    background-size: 100%;
+    width: 14.5%;
+    height: 28%;
+    left: 89.5%;
+    top: 81%;
+}
+#winnovative{
+    background: url(../images/whatwedo/innovative.png);
+    background-size: 100%;
+    width: 14%;
+    height: 28%;
+    left: 62%;
+    top: 50%;
+}
+#wmultilayers{
+    background: url(../images/whatwedo/multilayers.png);
+    background-size: 100%;
+    width: 19%;
+    height: 30%;
+    left: 24.5%;
+    top: 60%;
+}
+#wpublic{
+    background: url(../images/whatwedo/public.png);
+    background-size: 100%;
+    width: 12%;
+    height: 22%;
+    left: 45.5%;
+    top: 65%;
+}
+#wresearch{
+    background: url(../images/whatwedo/research.png);
+    background-size: 100%;
+    width: 13.5%;
+    height: 26%;
+    left: 37%;
+    top: 91%;
+}
+#whatwedotext{
+    top: 27%;
+    left: 27%;
+    width: 80%;
+    height: 40%;
+}
+
+/*  Who we have done it with   */
+
+#whowehavetext{
+    width: 70%;
+    height: 26%;
+    left: 40%;
+    top: 12%;
+}
+
+
+/* What they are saying */
+
+.bubble-group{
+    position: absolute;
+    width: 20%;
+    border-radius: 116px;
+    height: 40%;
+}
+.saybrand{
+    top: 74%;
+    left: -17%;
+    width: 35%;
+    height: 36%;
+}
+.saytext{
+    top: 0%;
+    left: 0;
+    width: 100%;
+    border-radius: 50%;
+    height: 96%;
+}
+.sayperson{
+    top: 82%;
+    left: 66%;
+    width: 39%;
+    height: 40%;
+}
+
+#bubble-group1{
+    top: 23%;
+    left: 40%;
+}
+#bubble-group2{
+    top: 22%;
+    left: 77%;
+}
+#bubble-group3{
+    top: 68%;
+    left: 33%;
+}
+#bubble-group4{
+    top: 69%;
+    left: 69%;
+}
+#bubble-group1 .sayperson{
+    background: url(../images/Testimonial/man1.png);
+    background-size: 100%;
+}
+#bubble-group1 .saybrand{
+    background: url(../images/Testimonial/logo1.png);
+    background-size: 100%;
+}
+#bubble-group1 .saytext{
+    background: url(../images/Testimonial/testimonial1.png);
+    background-size: 100%;
+}
+
+#bubble-group2 .sayperson{
+    background: url(../images/Testimonial/man2.png);background-size: 100%;
+}
+#bubble-group2 .saybrand{
+    background: url(../images/Testimonial/logo2.png);background-size: 100%;
+}
+#bubble-group2 .saytext{
+    background: url(../images/Testimonial/testimonial2.png);background-size: 100%;
+}
+
+#bubble-group3 .sayperson{
+    background: url(../images/Testimonial/man3.png);background-size: 100%;
+}
+#bubble-group3 .saybrand{
+    background: url(../images/Testimonial/logo3.png);background-size: 100%;
+}
+#bubble-group3 .saytext{
+    background: url(../images/Testimonial/testimonial4.png);background-size: 100%;
+}
+
+#bubble-group4 .sayperson{
+    background: url(../images/Testimonial/man4.png);background-size: 100%;
+}
+#bubble-group4 .saybrand{
+    background: url(../images/Testimonial/logo4.png);background-size: 100%;
+}
+#bubble-group4 .saytext{
+    background: url(../images/Testimonial/testimonial3.png);background-size: 100%;
+}
+
+
+
+
+
+
+
+

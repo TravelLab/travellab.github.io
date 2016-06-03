@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>TravelLab.ca - The Science of Travel Marketing</title>
+    <meta name="developers" content="Rajdeep Gautam" />
+    <meta name="developers" content="Lokesh Devnani" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet" />
+    <style>
+        .wrapper{
+            background: url(images/background1.png);
+            background-size: 100%;
+        }
+        #whatwe{
+            width: 19%;
+            height: 35%;
+            left: 6%;
+            top: 32%;
+        }
+    </style>
+    <link href="css/secondary.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="inner effects">
+            <a id="logo" class="hvr-hang" href="index.html"></a>
+            <div id="whatwedotext" class="btext">
+                <h3> Create Innovative Strategies that drive Results</h3>
+                <p>If you're looking for that same old same old...don't bother. If you're looking for the people who drove an ice cream truck right across Canada giving away snow-cones to launch one of
+                the largest ever travel promotions in Canadian History, 'Let it Snow'... now we are talking</p>
+                <h3>What we do BEST!</h3>
+            </div>
+            <a id="whatwe" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wbranding" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wconsumer" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wdestination" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wdestination_crisis" class='bubble' href='what-we-have-done.html'></a>
+            <a id="winnovative" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wmultilayers" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wpublic" class='bubble' href='what-we-have-done.html'></a>
+            <a id="wresearch" class='bubble' href='what-we-have-done.html'></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="col-md-offset-1 col-md-4 effects">
+            <h4>Contact Our Laboratory</h4>
+            <p><a href="tel:5194000039" target="_blank"><i class="glyphicon glyphicon-earphone"></i> 519 400 0039</a></p> 				<p><a href="mailto:bradmiron@travellab.ca" target="_blank"><i class="glyphicon glyphicon-envelope"></i> bradmiron@travellab.ca</a></p>
+        </div>
+        <div class="col-md-6" style="text-align: center;">
+            <h4>Quick Links</h4>
+            <div class="col-md-4">
+                <p><a href="who-we-are.html">Who we are</a></p>
+                <p><a href="what-we-do.html">What we do</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a href="what-we-have-done.html">What we've done</a></p>
+                <p><a href="what-they-are-saying.html">What they are saying</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a href="who-we-have-done-it-with.html">Who we've done it with</a></p>
+                <p><a href="contact.html">Contact Us</a></p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var heightResizer = function(){
+            w = $(".wrapper").width();
+            $(".wrapper").height(w*448/1140 );
+        };;
+        $(window).load(heightResizer);
+        $(window).resize(heightResizer);
+    });
+</script>
+</body>
+</html>

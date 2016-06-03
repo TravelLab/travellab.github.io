@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    background-color: #eee;
+}
+@font-face {
+    font-family: futuraOrto;
+    src: url(../fonts/a_FuturaOrtoLt%20BoldItalic.ttf);
+}
+@font-face {
+    font-family: futuraRound;
+    src: url(../fonts/a_FuturaRound%20BoldItalic.ttf);
+}
+@font-face {
+    font-family: futuraOrt;
+    src: url(../fonts/a_FuturaRound%20BoldItalic.ttf);
+}
+.wrapper{
+    background: url(../images/home-1.png);
+    background-size: 100%;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    padding: 0 0 9% 0;
+}
+.inner{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    background: transparent;
+    margin-left: 10%;
+}
+.bubble{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: black;
+    z-index: 10;
+}
+
+
+#logo{
+    background: url(../images/logo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 31%;
+    position: absolute;
+    top: 2%;
+    left: 2.5%;
+    cursor: pointer;
+}
+#whowe{
+    background: url(../images/whoweare.png);
+    background-size: 100%;
+    background-position: 0 0;
+    height: 33%;
+    width: 17%;
+    left: 14.5%;
+    top: 32%;
+}
+#whatwe{
+    background: url(../images/whatwedo.png);
+    background-size: 100%;
+    width: 22%;
+    height: 40%;
+    left: 35%;
+    top: 18%;
+}
+
+#whatwehave{
+    background: url(../images/whatwehavedone.png);
+    width: 20%;
+    height: 40%;
+    background-size: 100%;
+    left: 80%;
+    top: 32%;
+}
+
+#whattheyare{
+    background: url(../images/whattheyaresaying.png);
+    width: 22%;
+    height: 42%;
+    background-size: 100%;
+    left: 60%;
+    top: 3%;
+}
+
+#whowehave{
+    background: url(../images/whowehavedoneitwith.png);
+    width: 26%;
+    height: 41%;
+    background-size: 100%;
+    left: 20.5%;
+    top: 64%;
+}
+.bubble{
+    background-size: 100%;
+    cursor: pointer;
+}
+footer{
+    border-top: 8px solid #CB452F;
+    background-color: black;
+    color: white;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+footer h4{
+    font-weight: bold;
+}
+footer:after{
+    clear:both;
+}
+footer a, footer p{
+    display: block;
+    color: #7EABD6;
+}
+.btext{
+    position: absolute;
+    color: white;
+    font-family: futuraOrto,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.btext h3{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: futuraRound,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btext h4{
+    font-size: 14px;
+    font-family: futuraRound,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sidetext{
+    position: absolute;
+    color: #ffffff;
+    left: 80%;
+    width: 30%;
+    top : 10%;
+    padding: 1%;
+    border: 3px solid white;
+    font-family: FuturaOrto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.15em;
+}
+.sidetext h4{
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Effects */
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.bubble {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bubble:hover, .bubble:focus, .bubble:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Hang */
+@-webkit-keyframes hvr-hang {
+    0% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@keyframes hvr-hang {
+    0% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@-webkit-keyframes hvr-hang-sink {
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@keyframes hvr-hang-sink {
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+#logo:hover, #logo:focus, #logo:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+    .container {
+        width: auto;
+    }
+    .sidetext{
+        font-size: 11px;
+    }
+}
